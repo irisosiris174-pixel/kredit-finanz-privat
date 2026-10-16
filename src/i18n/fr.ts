@@ -15,7 +15,7 @@ export const fr: Translations = {
   hero: {
     badge: 'Votre partenaire financier de confiance en Europe',
     title: 'Des solutions de crédit sur mesure pour tous vos projets',
-    subtitle: 'Cemorana vous propose des crédits personnels transparents, rapides et fiables avec des conditions avantageuses et un taux annuel fixe à partir de 3%.',
+    subtitle: 'Kredit Finanz Privat vous propose des crédits personnels transparents, rapides et fiables avec des conditions avantageuses et un taux annuel fixe à partir de 3%.',
     ctaPrimary: 'Demander un crédit en ligne',
     ctaSecondary: 'Simuler mon crédit',
     stat1Label: 'Clients satisfaits',
@@ -27,8 +27,8 @@ export const fr: Translations = {
   },
   aboutBrief: {
     title: 'Excellence & Transparence au service de vos projets',
-    subtitle: 'À propos de Cemorana',
-    desc1: 'Cemorana est une institution financière reconnue, spécialisée dans les solutions de crédit aux particuliers et l\'accompagnement sur mesure.',
+    subtitle: 'À propos de Kredit Finanz Privat',
+    desc1: 'Kredit Finanz Privat est une institution financière reconnue, spécialisée dans les solutions de crédit aux particuliers et l\'accompagnement sur mesure.',
     desc2: 'Nous accordons une priorité absolue à la confidentialité, la réactivité et la clarté des conditions sans aucun frais caché.',
     readMore: 'En savoir plus sur nous',
     points: [
@@ -70,7 +70,7 @@ export const fr: Translations = {
   },
   testimonialsSection: {
     title: 'Ce que disent nos clients',
-    subtitle: 'La confiance et la satisfaction de nos emprunteurs sont la fierté de Cemorana',
+    subtitle: 'La confiance et la satisfaction de nos emprunteurs sont la fierté de Kredit Finanz Privat',
     viewAll: 'Voir tous les témoignages',
   },
   faqSection: {
@@ -117,10 +117,10 @@ export const fr: Translations = {
     }
   },
   aboutPage: {
-    title: 'À propos de Cemorana',
+    title: 'À propos de Kredit Finanz Privat',
     subtitle: 'Votre partenaire de confiance pour les solutions de crédit en Europe.',
     missionTitle: 'Notre Mission',
-    missionDesc: 'Chez Cemorana, nous sommes convaincus que l\'accès au crédit doit être simple, transparent et exempt de lourdeurs bureaucratiques. Nous accompagnons chaque client dans la concrétisation durable de ses projets.',
+    missionDesc: 'Chez Kredit Finanz Privat, nous sommes convaincus que l\'accès au crédit doit être simple, transparent et exempt de lourdeurs bureaucratiques. Nous accompagnons chaque client dans la concrétisation durable de ses projets.',
     valuesTitle: 'Nos Valeurs Fondamentales',
     valuesDesc: 'Notre engagement s\'appuie sur quatre piliers : l\'intégrité, la transparence totale, la proximité client et la rapidité d\'exécution.',
     commitmentsTitle: 'Nos Engagements Qualité',
@@ -170,38 +170,38 @@ export const fr: Translations = {
       submitting: 'Envoi en cours...',
       successTitle: 'Merci pour votre demande !',
       successMsg: 'Votre dossier a été transmis avec succès à notre équipe. Nous l\'examinerons et vous contacterons dans un délai de 24 heures.',
-      errorMsg: 'Une erreur est survenue lors de l\'envoi de votre demande. Veuillez réessayer ou nous contacter par e-mail ou WhatsApp.'
+      errorMsg: 'Une erreur est survenue lors de l\'envoi de votre demande. Veuillez réessayer ou nous contacter par e-mail.'
     }
   },
   legalPage: {
     title: 'Mentions Légales',
     lastUpdated: 'Dernière mise à jour : Octobre 2026',
     companyInfo: 'Informations sur l\'entreprise',
-    companyName: 'Cemorana Financial Solutions',
-    address: 'Kardinal-Faulhaber-Straße 12, 80333 München-Altstadt-Lehel, Allemagne',
-    email: 'contact@cemorana.com',
-    phone: '+49 157 79193294',
-    regNumber: 'Numéro d\'enregistrement : HRB-CEM-2026-EU',
+    companyName: 'Kredit Finanz Privat',
+    address: '05 rue du gabian, 98000 Monaco',
+    email: 'contact@kredit-finanz-privat.com',
+    phone: 'Contact via e-mail',
+    regNumber: 'Numéro d\'enregistrement : MC-KFP-2026-EU',
     regulatoryInfo: 'Organisme de contrôle',
-    disclaimer: 'Cemorana est une institution spécialisée dans les solutions de crédit aux particuliers. Les données présentées sur ce site sont indicatives et ne constituent pas un engagement contractuel. Le contrat de prêt définitif intervient après étude d\'éligibilité et signature.'
+    disclaimer: 'Kredit Finanz Privat est une institution spécialisée dans les solutions de crédit aux particuliers. Les données présentées sur ce site sont indicatives et ne constituent pas un engagement contractuel. Le contrat de prêt définitif intervient après étude d\'éligibilité et signature.'
   },
   privacyPage: {
     title: 'Politique de Confidentialité',
     lastUpdated: 'Dernière mise à jour : Octobre 2026',
-    intro: 'La protection de vos données personnelles est au cœur des priorités de Cemorana.',
-    dataUsage: 'Aucun stockage sur les serveurs du site : Cemorana ne conserve aucune donnée personnelle dans une base de données du site web. Les informations renseignées dans le formulaire sont exclusivement destinées à transmettre une alerte e-mail via Resend à contact@cemorana.com.',
+    intro: 'La protection de vos données personnelles est au cœur des priorités de Kredit Finanz Privat.',
+    dataUsage: 'Aucun stockage sur les serveurs du site : Kredit Finanz Privat ne conserve aucune donnée personnelle dans une base de données du site web. Les informations renseignées dans le formulaire sont exclusivement destinées à transmettre une alerte e-mail via Resend à contact@kredit-finanz-privat.com.',
     resendNote: 'Les e-mails sont acheminés de manière chiffrée via le service sécurisé Resend conformément aux normes européennes de protection des données.',
-    rights: 'Vos droits : Vous disposez d\'un droit d\'accès, de rectification et de suppression de vos données à tout moment en écrivant à contact@cemorana.com.',
+    rights: 'Vos droits : Vous disposez d\'un droit d\'accès, de rectification et de suppression de vos données à tout moment en écrivant à contact@kredit-finanz-privat.com.',
     cookies: 'Cookies : Ce site utilise uniquement les cookies de session strictement nécessaires au choix de la langue et au bon fonctionnement de la navigation.'
   },
   footer: {
-    desc: 'Cemorana est votre institution spécialisée en crédit aux particuliers, regroupement de prêts et solutions financières en Europe.',
+    desc: 'Kredit Finanz Privat est votre institution spécialisée en crédit aux particuliers, regroupement de prêts et solutions financières en Europe.',
     quickLinks: 'Liens rapides',
     ourServices: 'Nos services',
     legalLinks: 'Informations légales',
     contactInfo: 'Contact & Support',
-    rights: 'Tous droits réservés. Cemorana',
-    address: 'Service client Europe | E-mail: contact@cemorana.com | Tél: +49 157 79193294',
+    rights: 'Tous droits réservés. Kredit Finanz Privat',
+    address: '05 rue du gabian, 98000 Monaco | E-mail: contact@kredit-finanz-privat.com',
   },
   notFound: {
     title: 'Page non trouvée (404)',

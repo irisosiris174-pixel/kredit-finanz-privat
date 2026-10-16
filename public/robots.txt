@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cemorana.com/sitemap.xml
+Sitemap: https://kredit-finanz-privat.com/sitemap.xml

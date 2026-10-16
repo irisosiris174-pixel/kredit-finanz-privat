@@ -44,15 +44,15 @@ export const Navbar: React.FC = () => {
           <Link to={`/${currentLang}`} className="flex items-center gap-3 group">
             <img
               src="/logo.png"
-              alt="Cemorana"
+              alt="Kredit Finanz Privat"
               className="h-10 w-auto object-contain group-hover:scale-105 transition-transform"
             />
             <div className="flex flex-col">
-              <span className="text-2xl font-bold tracking-tight text-slate-900 group-hover:text-[#0a6c74] transition-colors">
-                CEMORANA
+              <span className="text-xl font-bold tracking-tight text-slate-900 group-hover:text-[#0a6c74] transition-colors leading-tight">
+                Kredit Finanz Privat
               </span>
-              <span className="text-[10px] uppercase tracking-widest text-[#0a6c74] font-semibold -mt-1">
-                Financial Solutions
+              <span className="text-[10px] uppercase tracking-widest text-[#0a6c74] font-semibold">
+                Financement & Crédit
               </span>
             </div>
           </Link>

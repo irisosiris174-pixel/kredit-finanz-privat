@@ -15,7 +15,7 @@ export const lt: Translations = {
   hero: {
     badge: 'Jūsų patikimas finansinis partneris Europoje',
     title: 'Individualūs paskolų sprendimai jūsų tikslams',
-    subtitle: 'Cemorana siūlo skaidrias, greitas ir patikimas asmenines paskolas su sąžiningomis sąlygomis ir fiksuota metine palūkanų norma nuo 3% per metus.',
+    subtitle: 'Kredit Finanz Privat siūlo skaidrias, greitas ir patikimas asmenines paskolas su sąžiningomis sąlygomis ir fiksuota metine palūkanų norma nuo 3% per metus.',
     ctaPrimary: 'Pateikti paraišką internetu',
     ctaSecondary: 'Skaičiuoti paskolą',
     stat1Label: 'Patenkintų klientų',
@@ -27,8 +27,8 @@ export const lt: Translations = {
   },
   aboutBrief: {
     title: 'Puošelėjama kokybė ir skaidrumas',
-    subtitle: 'Apie Cemorana',
-    desc1: 'Cemorana yra žinoma finansų įstaiga, besispecializuojanti pritaikytų vartojimo paskolų ir asmeninio finansavimo srityje.',
+    subtitle: 'Apie Kredit Finanz Privat',
+    desc1: 'Kredit Finanz Privat yra žinoma finansų įstaiga, besispecializuojanti pritaikytų vartojimo paskolų ir asmeninio finansavimo srityje.',
     desc2: 'Mes teikiame pirmenybę konfidencialumui, operatyvumui ir aiškioms sąlygoms be jokių paslėptų mokesčių.',
     readMore: 'Skaitykite daugiau apie mus',
     points: [
@@ -70,7 +70,7 @@ export const lt: Translations = {
   },
   testimonialsSection: {
     title: 'Ką apie mus sako klientai',
-    subtitle: 'Pasitikėjimas ir klientų pasitenkinimas yra Cemorana prioritetas',
+    subtitle: 'Pasitikėjimas ir klientų pasitenkinimas yra Kredit Finanz Privat prioritetas',
     viewAll: 'Skaityti visus atsiliepimus',
   },
   faqSection: {
@@ -117,10 +117,10 @@ export const lt: Translations = {
     }
   },
   aboutPage: {
-    title: 'Apie Cemorana',
+    title: 'Apie Kredit Finanz Privat',
     subtitle: 'Jūsų patikimas skaidrių asmeninių paskolų specialistas Europoje.',
     missionTitle: 'Mūsų misija',
-    missionDesc: 'Cemorana tiki, kad finansinės paslaugos turi būti lengvai prieinamos, skaidrios ir be bereikalingo biurokratizmo.',
+    missionDesc: 'Kredit Finanz Privat tiki, kad finansinės paslaugos turi būti lengvai prieinamos, skaidrios ir be bereikalingo biurokratizmo.',
     valuesTitle: 'Mūsų vertybės',
     valuesDesc: 'Mūsų darbas grindžiamas sąžiningumu, visišku skaidrumu, dėmesiu klientui ir greitu sprendimų priėmimu.',
     commitmentsTitle: 'Mūsų įsipareigojimai',
@@ -170,38 +170,38 @@ export const lt: Translations = {
       submitting: 'Siunčiama...',
       successTitle: 'Dėkojame už jūsų paraišką!',
       successMsg: 'Jūsų paraiška sėkmingai išsiųsta. Patikrinsime duomenis ir susisieksime per 24 valandas.',
-      errorMsg: 'Įvyko klaida siunčiant paraišką. Bandykite dar kartą arba susisiekite el. paštu ar WhatsApp.'
+      errorMsg: 'Įvyko klaida siunčiant paraišką. Bandykite dar kartą arba susisiekite el. paštu.'
     }
   },
   legalPage: {
     title: 'Teisinė informacija / Impressum',
     lastUpdated: 'Atnaujinta: 2026 m. spalis',
     companyInfo: 'Įmonės informacija',
-    companyName: 'Cemorana Financial Solutions',
-    address: 'Kardinal-Faulhaber-Straße 12, 80333 München-Altstadt-Lehel, Allemagne',
-    email: 'contact@cemorana.com',
-    phone: '+49 157 79193294',
-    regNumber: 'Registracijos kodas: HRB-CEM-2026-EU',
+    companyName: 'Kredit Finanz Privat',
+    address: '05 rue du gabian, 98000 Monaco',
+    email: 'contact@kredit-finanz-privat.com',
+    phone: 'Kontaktai el. paštu',
+    regNumber: 'Registracijos kodas: MC-KFP-2026-EU',
     regulatoryInfo: 'Priežiūros institucija',
-    disclaimer: 'Cemorana yra specializuota vartojimo kreditų sprendimų įstaiga. Svetainėje pateikta informacija yra pažintinio pobūdžio ir nėra teisiškai įpareigojantis pasiūlymas.'
+    disclaimer: 'Kredit Finanz Privat yra specializuota vartojimo kreditų sprendimų įstaiga. Svetainėje pateikta informacija yra pažintinio pobūdžio ir nėra teisiškai įpareigojantis pasiūlymas.'
   },
   privacyPage: {
     title: 'Privatumo politika',
     lastUpdated: 'Atnaujinta: 2026 m. spalis',
-    intro: 'Jūsų asmens duomenų apsauga yra Cemorana prioritetas.',
-    dataUsage: 'Jokio duomenų saugojimo serveriuose: Cemorana nesaugo jokių asmens duomenų svetainės duomenų bazėse. Paraiškos duomenys naudojami tik el. laiško išsiuntimui per Resend į contact@cemorana.com.',
+    intro: 'Jūsų asmens duomenų apsauga yra Kredit Finanz Privat prioritetas.',
+    dataUsage: 'Jokio duomenų saugojimo serveriuose: Kredit Finanz Privat nesaugo jokių asmens duomenų svetainės duomenų bazėse. Paraiškos duomenys naudojami tik el. laiško išsiuntimui per Resend į contact@kredit-finanz-privat.com.',
     resendNote: 'Laiškai siunčiami užšifruoti per sertifikuotą Resend sistemą pagal Europos duomenų apsaugos standartus.',
-    rights: 'Jūsų teisės: Jūs turite teisę bet kada prašyti susipažinti su savo duomenimis ar reikalauti jų ištrynimo rašydami el. paštu contact@cemorana.com.',
+    rights: 'Jūsų teisės: Jūs turite teisę bet kada prašyti susipažinti su savo duomenimis ar reikalauti jų ištrynimo rašydami el. paštu contact@kredit-finanz-privat.com.',
     cookies: 'Slapukai: Svetainėje naudojami tik būtini sesijos slapukai, reikalingi kalbos pasirinkimui palaikyti.'
   },
   footer: {
-    desc: 'Cemorana yra jūsų patikimas asmeninių paskolų ir finansavimo sprendimų partneris Europoje.',
+    desc: 'Kredit Finanz Privat yra jūsų patikimas asmeninių paskolų ir finansavimo sprendimų partneris Europoje.',
     quickLinks: 'Nuorodos',
     ourServices: 'Mūsų paslaugos',
     legalLinks: 'Teisinė informacija',
     contactInfo: 'Kontaktai',
-    rights: 'Visos teisės saugomos. Cemorana',
-    address: 'Klientų aptarnavimas Europoje | El. paštas: contact@cemorana.com | Tel: +49 157 79193294',
+    rights: 'Visos teisės saugomos. Kredit Finanz Privat',
+    address: '05 rue du gabian, 98000 Monaco | El. paštas: contact@kredit-finanz-privat.com',
   },
   notFound: {
     title: 'Puslapis nerastas (404)',

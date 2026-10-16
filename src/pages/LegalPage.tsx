@@ -36,10 +36,6 @@ export const LegalPage: React.FC = () => {
               <span className="font-semibold">{t.email}</span>
             </div>
             <div>
-              <span className="text-slate-400 block text-xs">Téléphone / WhatsApp</span>
-              <span className="font-semibold">{t.phone}</span>
-            </div>
-            <div className="sm:col-span-2">
               <span className="text-slate-400 block text-xs">Immatriculation</span>
               <span className="font-semibold">{t.regNumber}</span>
             </div>

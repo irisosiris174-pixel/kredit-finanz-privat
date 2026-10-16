@@ -34,10 +34,10 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     amount: '25.000 €',
     date: '12/09/2026',
     content: {
-      de: 'Ich habe bei Cemorana einen Autokredit beantragt. Der Zinssatz von 3% ist im aktuellen Marktumfeld unschlagbar. Die Auszahlung erfolgte innerhalb von 48 Stunden. Ausgezeichneter Service!',
-      en: 'I applied for a car loan with Cemorana. The 3% interest rate is unbeatable in the current market. The payout was made within 48 hours. Excellent service!',
-      lt: 'Kreipiausi į „Cemorana“ dėl paskolos automobiliui. 3% palūkanų norma šiuo metu yra neprilygstama. Pinigai buvo pervesti per 48 valandas. Puikus aptarnavimas!',
-      fr: 'J\'ai souscrit un crédit auto chez Cemorana. Le taux de 3% est imbattable actuellement. Les fonds ont été débloqués en 48 heures. Service impeccable !'
+      de: 'Ich habe bei Kredit Finanz Privat einen Autokredit beantragt. Der Zinssatz von 3% ist im aktuellen Marktumfeld unschlagbar. Die Auszahlung erfolgte innerhalb von 48 Stunden. Ausgezeichneter Service!',
+      en: 'I applied for a car loan with Kredit Finanz Privat. The 3% interest rate is unbeatable in the current market. The payout was made within 48 hours. Excellent service!',
+      lt: 'Kreipiausi į „Kredit Finanz Privat“ dėl paskolos automobiliui. 3% palūkanų norma šiuo metu yra neprilygstama. Pinigai buvo pervesti per 48 valandas. Puikus aptarnavimas!',
+      fr: 'J\'ai souscrit un crédit auto chez Kredit Finanz Privat. Le taux de 3% est imbattable actuellement. Les fonds ont été débloqués en 48 heures. Service impeccable !'
     }
   },
   {
@@ -74,10 +74,10 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     amount: '35.000 €',
     date: '15/08/2026',
     content: {
-      de: 'Die Kreditumschuldung hat meine monatlichen Ausgaben deutlich gesenkt. Vielen Dank an das Cemorana-Team für die schnelle Abwicklung.',
-      en: 'Debt consolidation significantly reduced my monthly expenses. Many thanks to the Cemorana team for swift execution.',
-      lt: 'Paskolų refinansavimas žymiai sumažino mano mėnesines išlaidas. Ačiū „Cemorana“ komandai už greitą darbą.',
-      fr: 'Le regroupement de crédits a considérablement réduit mes charges mensuelles. Un grand merci à l\'équipe Cemorana pour leur rapidité.'
+      de: 'Die Kreditumschuldung hat meine monatlichen Ausgaben deutlich gesenkt. Vielen Dank an das Kredit Finanz Privat-Team für die schnelle Abwicklung.',
+      en: 'Debt consolidation significantly reduced my monthly expenses. Many thanks to the Kredit Finanz Privat team for swift execution.',
+      lt: 'Paskolų refinansavimas žymiai sumažino mano mėnesines išlaidas. Ačiū „Kredit Finanz Privat“ komandai už greitą darbą.',
+      fr: 'Le regroupement de crédits a considérablement réduit mes charges mensuelles. Un grand merci à l\'équipe Kredit Finanz Privat pour leur rapidité.'
     }
   },
   {
@@ -94,10 +94,10 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     amount: '12.000 €',
     date: '02/08/2026',
     content: {
-      de: 'Ein Privater Kredit ohne Bürokratie. Sehr freundlicher Kundenservice per E-Mail und WhatsApp. Ich kann Cemorana jedem empfehlen.',
-      en: 'A personal loan without red tape. Very friendly customer service via email and WhatsApp. I recommend Cemorana to everyone.',
-      lt: 'Asmeninė paskola be biurokratijos. Labai draugiškas aptarnavimas el. paštu ir WhatsApp. Rekomenduoju „Cemorana“.',
-      fr: 'Un prêt personnel sans lourdeur administrative. Service client très réactif et bienveillant par WhatsApp. Je recommande vivement.'
+      de: 'Ein Privater Kredit ohne Bürokratie. Sehr freundlicher Kundenservice per E-Mail. Ich kann Kredit Finanz Privat jedem empfehlen.',
+      en: 'A personal loan without red tape. Very friendly customer service via email. I recommend Kredit Finanz Privat to everyone.',
+      lt: 'Asmeninė paskola be biurokratijos. Labai draugiškas aptarnavimas el. paštu. Rekomenduoju „Kredit Finanz Privat“.',
+      fr: 'Un prêt personnel sans lourdeur administrative. Service client très réactif et bienveillant par e-mail. Je recommande vivement.'
     }
   },
   {
@@ -174,10 +174,10 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     amount: '20.000 €',
     date: '10/06/2026',
     content: {
-      de: 'Cemorana hat mir geholfen, meine Weiterbildung zu finanzieren. Absolut professionell!',
-      en: 'Cemorana helped me finance my professional training. Absolutely professional!',
-      lt: '„Cemorana“ padėjo man finansuoti kvalifikacijos kėlimą. Visiškai profesionalu!',
-      fr: 'Cemorana m\'a permis de financer ma formation professionnelle. Un accompagnement irréprochable.'
+      de: 'Kredit Finanz Privat hat mir geholfen, meine Weiterbildung zu finanzieren. Absolut professionell!',
+      en: 'Kredit Finanz Privat helped me finance my professional training. Absolutely professional!',
+      lt: '„Kredit Finanz Privat“ padėjo man finansuoti kvalifikacijos kėlimą. Visiškai profesionalu!',
+      fr: 'Kredit Finanz Privat m\'a permis de financer ma formation professionnelle. Un accompagnement irréprochable.'
     }
   },
   {
@@ -214,10 +214,10 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     amount: '14.000 €',
     date: '18/05/2026',
     content: {
-      de: 'Sehr kompetentes Team. Ich konnte meine Fragen direkt per WhatsApp klären. Vielen Dank!',
-      en: 'Very competent team. I was able to clarify my questions directly on WhatsApp. Thank you!',
-      lt: 'Labai kompetentinga komanda. Į klausimus atsakyta tiesiogiai per „WhatsApp“. Ačiū!',
-      fr: 'Équipe très compétente. J\'ai pu poser mes questions directement sur WhatsApp. Merci à tous !'
+      de: 'Sehr kompetentes Team. Ich konnte meine Fragen direkt und unkompliziert per E-Mail klären. Vielen Dank!',
+      en: 'Very competent team. I was able to clarify my questions quickly and directly via email. Thank you!',
+      lt: 'Labai kompetentinga komanda. Į klausimus greitai ir tiesiogiai atsakyta el. paštu. Ačiū!',
+      fr: 'Équipe très compétente. J\'ai pu poser mes questions directement et rapidement par e-mail. Merci à tous !'
     }
   },
   {
@@ -254,10 +254,10 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     amount: '22.000 €',
     date: '20/04/2026',
     content: {
-      de: 'Sehr zufriedengestellt durch die Effizienz von Cemorana. Ein Musterbeispiel an Kundenorientierung.',
-      en: 'Very satisfied by Cemorana\'s efficiency. A prime example of customer focus.',
-      lt: 'Labai patenkinta „Cemorana“ efektyvumu. Puikus orientacijos į klientą pavyzdys.',
-      fr: 'Très satisfaite par l\'efficacité de Cemorana. Un modèle de service client.'
+      de: 'Sehr zufriedengestellt durch die Effizienz von Kredit Finanz Privat. Ein Musterbeispiel an Kundenorientierung.',
+      en: 'Very satisfied by Kredit Finanz Privat\'s efficiency. A prime example of customer focus.',
+      lt: 'Labai patenkinta „Kredit Finanz Privat“ efektyvumu. Puikus orientacijos į klientą pavyzdys.',
+      fr: 'Très satisfaite par l\'efficacité de Kredit Finanz Privat. Un modèle de service client.'
     }
   }
 ];
@@ -270,10 +270,10 @@ export interface FAQItem {
 export const FAQ_DATA: FAQItem[] = [
   {
     question: {
-      de: 'Wie hoch ist der Zinssatz bei Cemorana?',
-      en: 'What is the interest rate at Cemorana?',
-      lt: 'Kokia yra palūkanų norma „Cemorana“?',
-      fr: 'Quel est le taux d\'intérêt chez Cemorana ?'
+      de: 'Wie hoch ist der Zinssatz bei Kredit Finanz Privat?',
+      en: 'What is the interest rate at Kredit Finanz Privat?',
+      lt: 'Kokia yra palūkanų norma „Kredit Finanz Privat“?',
+      fr: 'Quel est le taux d\'intérêt chez Kredit Finanz Privat ?'
     },
     answer: {
       de: 'Wir bieten einen festen Jahreszins von 3,00% p.a. für alle unsere Kreditarten an, unabhängig von der gewählten Laufzeit.',
@@ -318,10 +318,10 @@ export const FAQ_DATA: FAQItem[] = [
       fr: 'Mes données personnelles sont-elles enregistrées sur le site ?'
     },
     answer: {
-      de: 'Nein. Aus Sicherheits- und Datenschutzgründen speichert Cemorana keinerlei persönliche Daten auf Webservern oder in Datenbanken. Das Formular sendet die Angaben direkt per verschlüsselter E-Mail via Resend.',
-      en: 'No. For privacy and security reasons, Cemorana stores zero personal data on web servers or databases. The form sends data directly via encrypted email via Resend.',
-      lt: 'Ne. Saugumo sumetimais „Cemorana“ nesaugo jokių duomenų svetainės serveriuose. Paraiška siunčiama el. paštu per „Resend“.',
-      fr: 'Non. Par souci de confidentialité et de sécurité, Cemorana ne stocke aucune donnée sur les serveurs du site. Les informations sont envoyées directement par e-mail sécurisé via Resend.'
+      de: 'Nein. Aus Sicherheits- und Datenschutzgründen speichert Kredit Finanz Privat keinerlei persönliche Daten auf Webservern oder in Datenbanken. Das Formular sendet die Angaben direkt per verschlüsselter E-Mail via Resend.',
+      en: 'No. For privacy and security reasons, Kredit Finanz Privat stores zero personal data on web servers or databases. The form sends data directly via encrypted email via Resend.',
+      lt: 'Ne. Saugumo sumetimais „Kredit Finanz Privat“ nesaugo jokių duomenų svetainės serveriuose. Paraiška siunčiama el. paštu per „Resend“.',
+      fr: 'Non. Par souci de confidentialité et de sécurité, Kredit Finanz Privat ne stocke aucune donnée sur les serveurs du site. Les informations sont envoyées directement par e-mail sécurisé via Resend.'
     }
   }
 ];

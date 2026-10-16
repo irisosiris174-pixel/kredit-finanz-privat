@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
-import { WhatsAppButton } from './components/WhatsAppButton';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { ServicesPage } from './pages/ServicesPage';
@@ -43,7 +42,7 @@ export function App() {
         
         <main className="flex-grow">
           <Routes>
-            {/* Root redirects to /de */}
+            {/* Root redirects to default language */}
             <Route path="/" element={<RootRedirector />} />
 
             {/* Multilingual Routes per Language Prefix */}
@@ -65,7 +64,6 @@ export function App() {
           </Routes>
         </main>
 
-        <WhatsAppButton />
         <Footer />
       </div>
     </BrowserRouter>

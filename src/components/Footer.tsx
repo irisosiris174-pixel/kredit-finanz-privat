@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Shield, Mail, Phone, MapPin } from 'lucide-react';
+import { Shield, Mail, MapPin } from 'lucide-react';
 import { getLanguageFromPath, translations } from '../i18n';
 
 export const Footer: React.FC = () => {
@@ -29,11 +29,11 @@ export const Footer: React.FC = () => {
             <Link to={`/${currentLang}`} className="flex items-center gap-3 group">
               <img
                 src="/logo.png"
-                alt="Cemorana"
+                alt="Kredit Finanz Privat"
                 className="h-10 w-auto object-contain group-hover:scale-105 transition-transform"
               />
               <span className="text-xl font-bold tracking-tight text-white group-hover:text-teal-400 transition-colors">
-                CEMORANA
+                KREDIT FINANZ PRIVAT
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -104,25 +104,19 @@ export const Footer: React.FC = () => {
               {t.contactInfo}
             </h3>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Cemorana" className="h-10 w-auto object-contain" />
-              <span className="text-xl font-bold tracking-tight text-white">CEMORANA</span>
+              <img src="/logo.png" alt="Kredit Finanz Privat" className="h-10 w-auto object-contain" />
+              <span className="text-xl font-bold tracking-tight text-white">KREDIT FINANZ PRIVAT</span>
             </div>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-3 text-slate-300">
                 <Mail className="w-4 h-4 text-[#16939d] shrink-0" />
-                <a href="mailto:contact@cemorana.com" className="hover:text-white transition-colors">
-                  contact@cemorana.com
+                <a href="mailto:contact@kredit-finanz-privat.com" className="hover:text-white transition-colors">
+                  contact@kredit-finanz-privat.com
                 </a>
               </li>
-              <li className="flex items-center gap-3 text-slate-300">
-                <Phone className="w-4 h-4 text-[#16939d] shrink-0" />
-                <a href="https://wa.me/4915779193294" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  +49 157 79193294 (WhatsApp)
-                </a>
-              </li>
-              <li className="flex items-center gap-3 text-slate-300">
-                <MapPin className="w-4 h-4 text-[#16939d] shrink-0" />
-                <span>Kardinal-Faulhaber-Straße 12, 80333 München-Altstadt-Lehel, Allemagne</span>
+              <li className="flex items-start gap-3 text-slate-300">
+                <MapPin className="w-4 h-4 text-[#16939d] shrink-0 mt-0.5" />
+                <span>05 rue du gabian, 98000 Monaco</span>
               </li>
             </ul>
           </div>
@@ -131,7 +125,7 @@ export const Footer: React.FC = () => {
         {/* Subfooter */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-slate-400 gap-4">
           <p>
-            © {new Date().getFullYear()} Cemorana. {t.rights}.
+            © {new Date().getFullYear()} Kredit Finanz Privat. {t.rights}.
           </p>
           <div className="flex items-center gap-4">
             <Link to={`/${currentLang}/privacy-policy`} className="hover:text-white transition-colors">

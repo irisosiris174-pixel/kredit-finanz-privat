@@ -27,7 +27,7 @@ export const HomePage: React.FC = () => {
       {/* 1. Hero Slider Section */}
       <HeroSlider />
 
-      {/* 2. Redesigned "À propos de Cemorana" Section with Image */}
+      {/* 2. Redesigned "À propos de Kredit Finanz Privat" Section with Image */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-slate-100 relative overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -37,7 +37,7 @@ export const HomePage: React.FC = () => {
               <div className="relative h-[380px] sm:h-[460px] rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src={PEXELS_IMAGES.about}
-                  alt="Équipe Cemorana Financial Solutions"
+                  alt="Équipe Kredit Finanz Privat"
                   className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />

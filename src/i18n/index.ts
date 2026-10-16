@@ -11,7 +11,7 @@ export const translations: Record<Language, Translations> = {
   fr,
 };
 
-export const defaultLanguage: Language = 'de';
+export const defaultLanguage: Language = 'fr';
 
 export const getLanguageFromPath = (pathname: string): Language => {
   const segment = pathname.split('/')[1];
