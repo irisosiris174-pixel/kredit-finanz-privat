@@ -29,11 +29,11 @@ export const Footer: React.FC = () => {
             <Link to={`/${currentLang}`} className="flex items-center gap-3 group">
               <img
                 src="/logo.png"
-                alt="Kredit Finanz Privat"
+                alt="Finamenix"
                 className="h-10 w-auto object-contain group-hover:scale-105 transition-transform"
               />
-              <span className="text-xl font-bold tracking-tight text-white group-hover:text-teal-400 transition-colors">
-                KREDIT FINANZ PRIVAT
+              <span className="text-xl font-bold tracking-tight text-white group-hover:text-teal-400 transition-colors uppercase">
+                Finamenix
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -117,8 +117,8 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-3 text-slate-300">
                 <Mail className="w-4 h-4 text-[#16939d] shrink-0" />
-                <a href="mailto:contact@kredit-finanz-privat.com" className="hover:text-white transition-colors">
-                  contact@kredit-finanz-privat.com
+                <a href="mailto:contact@finamenix.com" className="hover:text-white transition-colors">
+                  contact@finamenix.com
                 </a>
               </li>
               <li className="flex items-start gap-3 text-slate-300">
@@ -132,7 +132,7 @@ export const Footer: React.FC = () => {
         {/* Subfooter */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-slate-400 gap-4">
           <p>
-            © {new Date().getFullYear()} Kredit Finanz Privat. {t.rights}.
+            © {new Date().getFullYear()} Finamenix. {t.rights}.
           </p>
           <div className="flex items-center gap-4">
             <Link to={`/${currentLang}/privacy-policy`} className="hover:text-white transition-colors">

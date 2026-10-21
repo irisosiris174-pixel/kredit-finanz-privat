@@ -17,7 +17,7 @@ export const AboutPage: React.FC = () => {
         <div className="absolute inset-0 opacity-30 z-0">
           <img
             src={PEXELS_IMAGES.aboutBanner}
-            alt="À propos de Kredit Finanz Privat"
+            alt="À propos de Finamenix"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/90 to-slate-950/70" />

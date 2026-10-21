@@ -44,12 +44,12 @@ export const Navbar: React.FC = () => {
           <Link to={`/${currentLang}`} className="flex items-center gap-3 group">
             <img
               src="/logo.png"
-              alt="Kredit Finanz Privat"
+              alt="Finamenix"
               className="h-10 w-auto object-contain group-hover:scale-105 transition-transform"
             />
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight text-slate-900 group-hover:text-[#0a6c74] transition-colors leading-tight">
-                Kredit Finanz Privat
+                Finamenix
               </span>
               <span className="text-[10px] uppercase tracking-widest text-[#0a6c74] font-semibold">
                 Financement & Crédit

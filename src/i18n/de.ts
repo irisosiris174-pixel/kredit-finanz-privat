@@ -15,7 +15,7 @@ export const de: Translations = {
   hero: {
     badge: 'Ihr vertrauenswürdiger Finanzpartner in Europa',
     title: 'Maßgeschneiderte Kreditlösungen für Ihre Träume',
-    subtitle: 'Kredit Finanz Privat bietet Ihnen transparente, schnelle und verlässliche Privatkredite mit fairen Konditionen und fester Verzinsung ab 3% p.a.',
+    subtitle: 'Finamenix bietet Ihnen transparente, schnelle und verlässliche Privatkredite mit fairen Konditionen und fester Verzinsung ab 3% p.a.',
     ctaPrimary: 'Kredit online beantragen',
     ctaSecondary: 'Kredit berechnen',
     stat1Label: 'Zufriedene Kunden',
@@ -27,8 +27,8 @@ export const de: Translations = {
   },
   aboutBrief: {
     title: 'Exzellenz & Transparenz seit vielen Jahren',
-    subtitle: 'Über Kredit Finanz Privat',
-    desc1: 'Kredit Finanz Privat ist eine renommierte Finanzinstitution, die sich auf maßgeschneiderte Konsumentenkredite und Finanzierungslösungen für Privatpersonen spezialisiert hat.',
+    subtitle: 'Über Finamenix',
+    desc1: 'Finamenix ist eine renommierte Finanzinstitution, die sich auf maßgeschneiderte Konsumentenkredite und Finanzierungslösungen für Privatpersonen spezialisiert hat.',
     desc2: 'Wir legen höchsten Wert auf Diskretion, Schnelligkeit und verlässliche Bedingungen ohne versteckte Kosten.',
     readMore: 'Mehr über uns erfahren',
     points: [
@@ -92,7 +92,7 @@ export const de: Translations = {
   },
   testimonialsSection: {
     title: 'Das sagen unsere Kunden',
-    subtitle: 'Vertrauen und Zufriedenheit stehen bei Kredit Finanz Privat an erster Stelle',
+    subtitle: 'Vertrauen und Zufriedenheit stehen bei Finamenix an erster Stelle',
     badge: 'Kundenbewertungen & Erfahrungen',
     viewAll: 'Alle Erfahrungsberichte lesen',
   },
@@ -106,7 +106,7 @@ export const de: Translations = {
     btn: 'Jetzt Antrag starten',
   },
   servicesPage: {
-    heroBadge: 'Kreditlösungen von Kredit Finanz Privat',
+    heroBadge: 'Kreditlösungen von Finamenix',
     heroTitle: 'Unsere maßgeschneiderten Kreditlösungen',
     heroSubtitle: 'Entdecken Sie flexible Finanzierungsmöglichkeiten für Ihre persönlichen Vorhaben.',
     applySolutionBtn: 'Diese Lösung anfragen',
@@ -143,10 +143,10 @@ export const de: Translations = {
   },
   aboutPage: {
     badge: 'Vertrauenswürdiges Finanzinstitut',
-    title: 'Über Kredit Finanz Privat',
+    title: 'Über Finamenix',
     subtitle: 'Ihr verlässlicher Spezialist für transparente Privatkredite in Europa.',
     missionTitle: 'Unsere Mission',
-    missionDesc: 'Bei Kredit Finanz Privat glauben wir daran, dass der Zugang zu fairen Finanzierungen einfach, transparent und frei von bürokratischen Hürden sein sollte. Wir begleiten Privatpersonen dabei, ihre Lebensprojekte sicher und nachhaltig zu verwirklichen.',
+    missionDesc: 'Bei Finamenix glauben wir daran, dass der Zugang zu fairen Finanzierungen einfach, transparent und frei von bürokratischen Hürden sein sollte. Wir begleiten Privatpersonen dabei, ihre Lebensprojekte sicher und nachhaltig zu verwirklichen.',
     valuesTitle: 'Unsere Grundwerte',
     valuesDesc: 'Unsere Arbeit basiert auf vier Grundpfeilern: Integrität, absolute Transparenz, Kundennähe und schnelle Entscheidungswege.',
     commitmentsTitle: 'Unsere Qualitätsversprechen',
@@ -208,31 +208,31 @@ export const de: Translations = {
     title: 'Impressum / Rechtliche Hinweise',
     lastUpdated: 'Stand: Oktober 2026',
     companyInfo: 'Unternehmensangaben',
-    companyName: 'Kredit Finanz Privat',
+    companyName: 'Finamenix',
     address: '05 rue du gabian, 98000 Monaco',
-    email: 'contact@kredit-finanz-privat.com',
+    email: 'contact@finamenix.com',
     phone: 'Kontakt per E-Mail',
-    regNumber: 'Registernummer: MC-KFP-2026-EU',
+    regNumber: 'Registernummer: MC-FNX-2026-EU',
     regulatoryInfo: 'Aufsichtsbehörde & Regulierung',
-    disclaimer: 'Kredit Finanz Privat ist eine spezialisierte Institution für Verbraucherkreditlösungen. Alle Angaben auf dieser Website dienen der Information und stellen kein bindendes Vertragsangebot dar. Ein Kreditvertrag kommt erst nach Prüfung der Bonität und Unterzeichnung der offiziellen Unterlagen zustande.'
+    disclaimer: 'Finamenix ist eine spezialisierte Institution für Verbraucherkreditlösungen. Alle Angaben auf dieser Website dienen der Information und stellen kein bindendes Vertragsangebot dar. Ein Kreditvertrag kommt erst nach Prüfung der Bonität und Unterzeichnung der offiziellen Unterlagen zustande.'
   },
   privacyPage: {
     title: 'Datenschutzerklärung',
     lastUpdated: 'Stand: Oktober 2026',
-    intro: 'Der Schutz Ihrer persönlichen Daten hat für Kredit Finanz Privat höchste Priorität. Nachfolgend informieren wir Sie transparent über die Handhabung von Daten auf kredit-finanz-privat.com.',
-    dataUsage: 'Keine Speicherung auf Webservern oder Datenbanken: Kredit Finanz Privat speichert keinerlei personenbezogene Daten auf der Website oder in einer Server-Datenbank. Wenn Sie unser Formular nutzen, werden die eingegebenen Daten ausschließlich zur Übermittlung der Kreditanfrage via Resend per E-Mail an contact@kredit-finanz-privat.com verwendet.',
+    intro: 'Der Schutz Ihrer persönlichen Daten hat für Finamenix höchste Priorität. Nachfolgend informieren wir Sie transparent über die Handhabung von Daten auf finamenix.com.',
+    dataUsage: 'Keine Speicherung auf Webservern oder Datenbanken: Finamenix speichert keinerlei personenbezogene Daten auf der Website oder in einer Server-Datenbank. Wenn Sie unser Formular nutzen, werden die eingegebenen Daten ausschließlich zur Übermittlung der Kreditanfrage via Resend per E-Mail an contact@finamenix.com verwendet.',
     resendNote: 'Der Versand erfolgt verschlüsselt über den zertifizierten E-Mail-Dienstanbieter Resend unter Einhaltung strenger Sicherheitsstandards.',
-    rights: 'Ihre Rechte: Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Widerruf der Verarbeitung Ihrer Daten. Richten Sie Ihre Anfragen hierzu bitte direkt an contact@kredit-finanz-privat.com.',
+    rights: 'Ihre Rechte: Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Widerruf der Verarbeitung Ihrer Daten. Richten Sie Ihre Anfragen hierzu bitte direkt an contact@finamenix.com.',
     cookies: 'Cookies & Tracking: Diese Website verwendet lediglich technisch notwendige Session-Cookies zur Aufrechterhaltung der Sprachauswahl und Funktionalität der Website.'
   },
   footer: {
-    desc: 'Kredit Finanz Privat ist Ihr verlässlicher Spezialist für Privatkredite, Umschuldungen und maßgeschneiderte Finanzierungslösungen in Europa.',
+    desc: 'Finamenix ist Ihr verlässlicher Spezialist für Privatkredite, Umschuldungen und maßgeschneiderte Finanzierungslösungen in Europa.',
     quickLinks: 'Schnelllinks',
     ourServices: 'Unsere Dienstleistungen',
     legalLinks: 'Rechtliches',
     contactInfo: 'Kontakt & Kundenservice',
-    rights: 'Alle Rechte vorbehalten. Kredit Finanz Privat',
-    address: '05 rue du gabian, 98000 Monaco | E-Mail: contact@kredit-finanz-privat.com',
+    rights: 'Alle Rechte vorbehalten. Finamenix',
+    address: '05 rue du gabian, 98000 Monaco | E-Mail: contact@finamenix.com',
   },
   notFound: {
     title: 'Seite nicht gefunden (404)',

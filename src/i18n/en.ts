@@ -15,7 +15,7 @@ export const en: Translations = {
   hero: {
     badge: 'Your Trusted Financial Partner in Europe',
     title: 'Tailored Loan Solutions for Your Life Projects',
-    subtitle: 'Kredit Finanz Privat offers transparent, fast, and reliable personal loans with fair terms and a fixed annual interest rate starting at 3% p.a.',
+    subtitle: 'Finamenix offers transparent, fast, and reliable personal loans with fair terms and a fixed annual interest rate starting at 3% p.a.',
     ctaPrimary: 'Apply for Loan Online',
     ctaSecondary: 'Calculate Loan',
     stat1Label: 'Satisfied Clients',
@@ -27,8 +27,8 @@ export const en: Translations = {
   },
   aboutBrief: {
     title: 'Excellence & Transparency for Years',
-    subtitle: 'About Kredit Finanz Privat',
-    desc1: 'Kredit Finanz Privat is a renowned financial institution specializing in tailored consumer loans and personal financing solutions.',
+    subtitle: 'About Finamenix',
+    desc1: 'Finamenix is a renowned financial institution specializing in tailored consumer loans and personal financing solutions.',
     desc2: 'We place the highest priority on discretion, speed, and reliable terms without any hidden costs.',
     readMore: 'Learn More About Us',
     points: [
@@ -92,7 +92,7 @@ export const en: Translations = {
   },
   testimonialsSection: {
     title: 'What Our Clients Say',
-    subtitle: 'Trust and client satisfaction are Kredit Finanz Privat\'s utmost priorities',
+    subtitle: 'Trust and client satisfaction are Finamenix\'s utmost priorities',
     badge: 'Borrower Reviews & Experiences',
     viewAll: 'Read All Testimonials',
   },
@@ -106,7 +106,7 @@ export const en: Translations = {
     btn: 'Start Application Now',
   },
   servicesPage: {
-    heroBadge: 'Kredit Finanz Privat Credit Solutions',
+    heroBadge: 'Finamenix Credit Solutions',
     heroTitle: 'Our Tailored Loan Solutions',
     heroSubtitle: 'Explore flexible financing options tailored to your personal ambitions.',
     applySolutionBtn: 'Apply for this solution',
@@ -143,10 +143,10 @@ export const en: Translations = {
   },
   aboutPage: {
     badge: 'Trusted Financial Institution',
-    title: 'About Kredit Finanz Privat',
+    title: 'About Finamenix',
     subtitle: 'Your dependable specialist in transparent personal loans across Europe.',
     missionTitle: 'Our Mission',
-    missionDesc: 'At Kredit Finanz Privat, we believe access to fair financing should be simple, transparent, and free of bureaucratic hurdles. We support individuals in fulfilling their life goals safely and sustainably.',
+    missionDesc: 'At Finamenix, we believe access to fair financing should be simple, transparent, and free of bureaucratic hurdles. We support individuals in fulfilling their life goals safely and sustainably.',
     valuesTitle: 'Our Core Values',
     valuesDesc: 'Our work is grounded in four core pillars: Integrity, absolute transparency, client proximity, and rapid decision-making.',
     commitmentsTitle: 'Our Commitments to You',
@@ -208,31 +208,31 @@ export const en: Translations = {
     title: 'Legal Notice',
     lastUpdated: 'Updated: October 2026',
     companyInfo: 'Company Information',
-    companyName: 'Kredit Finanz Privat',
+    companyName: 'Finamenix',
     address: '05 rue du gabian, 98000 Monaco',
-    email: 'contact@kredit-finanz-privat.com',
+    email: 'contact@finamenix.com',
     phone: 'Contact via email',
-    regNumber: 'Registration Number: MC-KFP-2026-EU',
+    regNumber: 'Registration Number: MC-FNX-2026-EU',
     regulatoryInfo: 'Regulatory Authority',
-    disclaimer: 'Kredit Finanz Privat is a specialized credit institution for consumer loan solutions. Information presented on this website is for informational purposes only and does not constitute a legally binding contractual offer. A loan contract is finalized only after credit evaluation and signature of official documentation.'
+    disclaimer: 'Finamenix is a specialized credit institution for consumer loan solutions. Information presented on this website is for informational purposes only and does not constitute a legally binding contractual offer. A loan contract is finalized only after credit evaluation and signature of official documentation.'
   },
   privacyPage: {
     title: 'Privacy Policy',
     lastUpdated: 'Updated: October 2026',
-    intro: 'Protecting your personal data is Kredit Finanz Privat\'s top priority. Below is a transparent overview of how data is handled on kredit-finanz-privat.com.',
-    dataUsage: 'Zero Web Server Storage: Kredit Finanz Privat stores no personal information on website servers or databases. When submitting our online request form, data is processed solely to send an email notification via Resend directly to contact@kredit-finanz-privat.com.',
+    intro: 'Protecting your personal data is Finamenix\'s top priority. Below is a transparent overview of how data is handled on finamenix.com.',
+    dataUsage: 'Zero Web Server Storage: Finamenix stores no personal information on website servers or databases. When submitting our online request form, data is processed solely to send an email notification via Resend directly to contact@finamenix.com.',
     resendNote: 'Emails are transmitted in encrypted form through the certified service provider Resend in full compliance with European privacy standards.',
-    rights: 'Your Rights: You have the right to request access to, correction of, or deletion of your personal data at any time by contacting contact@kredit-finanz-privat.com.',
+    rights: 'Your Rights: You have the right to request access to, correction of, or deletion of your personal data at any time by contacting contact@finamenix.com.',
     cookies: 'Cookies: This website strictly uses essential session cookies necessary for storing language preferences and site functionality.'
   },
   footer: {
-    desc: 'Kredit Finanz Privat is your trusted partner for personal loans, debt consolidation, and customized financial solutions across Europe.',
+    desc: 'Finamenix is your trusted partner for personal loans, debt consolidation, and customized financial solutions across Europe.',
     quickLinks: 'Quick Links',
     ourServices: 'Our Services',
     legalLinks: 'Legal Information',
     contactInfo: 'Contact & Support',
-    rights: 'All rights reserved. Kredit Finanz Privat',
-    address: '05 rue du gabian, 98000 Monaco | Email: contact@kredit-finanz-privat.com',
+    rights: 'All rights reserved. Finamenix',
+    address: '05 rue du gabian, 98000 Monaco | Email: contact@finamenix.com',
   },
   notFound: {
     title: 'Page Not Found (404)',

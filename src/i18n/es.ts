@@ -15,7 +15,7 @@ export const es: Translations = {
   hero: {
     badge: 'Su socio financiero de confianza en Europa',
     title: 'Soluciones de crédito a medida para todos sus proyectos',
-    subtitle: 'Kredit Finanz Privat le ofrece préstamos personales transparentes, rápidos y fiables con condiciones ventajosas y un tipo anual fijo a partir del 3%.',
+    subtitle: 'Finamenix le ofrece préstamos personales transparentes, rápidos y fiables con condiciones ventajosas y un tipo anual fijo a partir del 3%.',
     ctaPrimary: 'Solicitar un préstamo online',
     ctaSecondary: 'Simular mi crédito',
     stat1Label: 'Clientes satisfechos',
@@ -27,8 +27,8 @@ export const es: Translations = {
   },
   aboutBrief: {
     title: 'Excelencia y transparencia al servicio de sus proyectos',
-    subtitle: 'Acerca de Kredit Finanz Privat',
-    desc1: 'Kredit Finanz Privat es una institución financiera consolidada, especializada en soluciones de crédito para particulares y asesoramiento personalizado.',
+    subtitle: 'Acerca de Finamenix',
+    desc1: 'Finamenix es una institución financiera consolidada, especializada en soluciones de crédito para particulares y asesoramiento personalizado.',
     desc2: 'Priorizamos de forma absoluta la confidencialidad, la rapidez de respuesta y la claridad total en las condiciones sin ningún coste oculto.',
     readMore: 'Más información sobre nosotros',
     points: [
@@ -92,7 +92,7 @@ export const es: Translations = {
   },
   testimonialsSection: {
     title: 'Lo que dicen nuestros clientes',
-    subtitle: 'La confianza y la satisfacción de nuestros prestatarios son el mayor orgullo de Kredit Finanz Privat',
+    subtitle: 'La confianza y la satisfacción de nuestros prestatarios son el mayor orgullo de Finamenix',
     badge: 'Opiniones y Experiencias de Prestatarios',
     viewAll: 'Ver todos los testimonios',
   },
@@ -106,7 +106,7 @@ export const es: Translations = {
     btn: 'Iniciar mi solicitud',
   },
   servicesPage: {
-    heroBadge: 'Soluciones de crédito Kredit Finanz Privat',
+    heroBadge: 'Soluciones de crédito Finamenix',
     heroTitle: 'Nuestras soluciones de financiación a medida',
     heroSubtitle: 'Descubra opciones de crédito flexibles diseñadas para materializar todas sus aspiraciones.',
     applySolutionBtn: 'Solicitar esta solución',
@@ -143,10 +143,10 @@ export const es: Translations = {
   },
   aboutPage: {
     badge: 'Institución financiera de confianza',
-    title: 'Acerca de Kredit Finanz Privat',
+    title: 'Acerca de Finamenix',
     subtitle: 'Su socio de confianza para soluciones de crédito en Europa.',
     missionTitle: 'Nuestra Misión',
-    missionDesc: 'En Kredit Finanz Privat creemos firmemente que el acceso a la financiación debe ser sencillo, transparente y sin burocracia innecesaria. Acompañamos a cada cliente en la consecución sostenible de sus metas.',
+    missionDesc: 'En Finamenix creemos firmemente que el acceso a la financiación debe ser sencillo, transparente y sin burocracia innecesaria. Acompañamos a cada cliente en la consecución sostenible de sus metas.',
     valuesTitle: 'Nuestros Valores Fundamentales',
     valuesDesc: 'Nuestro compromiso se sustenta en cuatro pilares: integridad, transparencia absoluta, cercanía con el cliente y rapidez operativa.',
     commitmentsTitle: 'Nuestros Compromisos de Calidad',
@@ -208,31 +208,31 @@ export const es: Translations = {
     title: 'Aviso Legal',
     lastUpdated: 'Última actualización: Octubre 2026',
     companyInfo: 'Información de la empresa',
-    companyName: 'Kredit Finanz Privat',
+    companyName: 'Finamenix',
     address: '05 rue du gabian, 98000 Mónaco',
-    email: 'contact@kredit-finanz-privat.com',
+    email: 'contact@finamenix.com',
     phone: 'Contacto por correo electrónico',
-    regNumber: 'Número de registro: MC-KFP-2026-EU',
+    regNumber: 'Número de registro: MC-FNX-2026-EU',
     regulatoryInfo: 'Organismo regulador',
-    disclaimer: 'Kredit Finanz Privat es una institución especializada en soluciones de financiación para particulares. Los datos presentados en este portal son meramente informativos y no constituyen un compromiso contractual. La formalización definitiva del crédito tiene lugar tras el análisis de solvencia y la firma contractual correspondiente.'
+    disclaimer: 'Finamenix es una institución especializada en soluciones de financiación para particulares. Los datos presentados en este portal son meramente informativos y no constituyen un compromiso contractual. La formalización definitiva del crédito tiene lugar tras el análisis de solvencia y la firma contractual correspondiente.'
   },
   privacyPage: {
     title: 'Política de Privacidad',
     lastUpdated: 'Última actualización: Octubre 2026',
-    intro: 'La protección de sus datos personales es una prioridad absoluta para Kredit Finanz Privat.',
-    dataUsage: 'Sin almacenamiento en servidores web: Kredit Finanz Privat no guarda datos de carácter personal en bases de datos del portal web. Los datos completados en el formulario sirven exclusivamente para remitir una notificación protegida por email mediante Resend a contact@kredit-finanz-privat.com.',
+    intro: 'La protección de sus datos personales es una prioridad absoluta para Finamenix.',
+    dataUsage: 'Sin almacenamiento en servidores web: Finamenix no guarda datos de carácter personal en bases de datos del portal web. Los datos completados en el formulario sirven exclusivamente para remitir una notificación protegida por email mediante Resend a contact@finamenix.com.',
     resendNote: 'Las comunicaciones por correo electrónico viajan encriptadas mediante la infraestructura certificada de Resend, cumpliendo los más exigentes estándares europeos de seguridad (RGPD).',
-    rights: 'Sus derechos: Puede ejercitar sus derechos de acceso, rectificación y supresión de sus datos en cualquier momento escribiendo a contact@kredit-finanz-privat.com.',
+    rights: 'Sus derechos: Puede ejercitar sus derechos de acceso, rectificación y supresión de sus datos en cualquier momento escribiendo a contact@finamenix.com.',
     cookies: 'Cookies: Esta web únicamente emplea cookies técnicas de sesión imprescindibles para recordar la preferencia de idioma y asegurar el funcionamiento óptimo de la navegación.'
   },
   footer: {
-    desc: 'Kredit Finanz Privat es su entidad de referencia en créditos personales, refinanciación y soluciones financieras a medida en Europa.',
+    desc: 'Finamenix es su entidad de referencia en créditos personales, refinanciación y soluciones financieras a medida en Europa.',
     quickLinks: 'Enlaces rápidos',
     ourServices: 'Nuestros servicios',
     legalLinks: 'Información legal',
     contactInfo: 'Contacto y Soporte',
-    rights: 'Todos los derechos reservados. Kredit Finanz Privat',
-    address: '05 rue du gabian, 98000 Mónaco | E-mail: contact@kredit-finanz-privat.com',
+    rights: 'Todos los derechos reservados. Finamenix',
+    address: '05 rue du gabian, 98000 Mónaco | E-mail: contact@finamenix.com',
   },
   notFound: {
     title: 'Página no encontrada (404)',

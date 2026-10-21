@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kredit-finanz-privat.com/sitemap.xml
+Sitemap: https://finamenix.com/sitemap.xml

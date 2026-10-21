@@ -85,7 +85,7 @@ export default async function handler(req: any, res: any) {
     const resend = new Resend(resendApiKey);
 
     const emailContent = `
-<h2>Nouvelle demande de crédit Kredit Finanz Privat (kredit-finanz-privat.com)</h2>
+<h2>Nouvelle demande de crédit Finamenix (finamenix.com)</h2>
 <p><strong>Langue de la demande :</strong> ${language || 'fr'}</p>
 <hr/>
 <h3>1. Informations Personnelles</h3>
@@ -111,12 +111,12 @@ export default async function handler(req: any, res: any) {
   <li><strong>Charges mensuelles :</strong> ${monthlyExpenses} €</li>
 </ul>
 <hr/>
-<p><em>Cette demande a été transmise directement via le formulaire web kredit-finanz-privat.com sans stockage en base de données.</em></p>
+<p><em>Cette demande a été transmise directement via le formulaire web finamenix.com sans stockage en base de données.</em></p>
     `;
 
     const data = await resend.emails.send({
-      from: 'contact@kredit-finanz-privat.com',
-      to: ['contact@kredit-finanz-privat.com'],
+      from: 'contact@finamenix.com',
+      to: ['contact@finamenix.com'],
       subject: `[Demande de Crédit ${amount}€] ${firstName} ${lastName}`,
       html: emailContent,
       replyTo: email,
