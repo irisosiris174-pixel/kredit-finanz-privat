@@ -36,15 +36,28 @@ export const de: Translations = {
       '100% digitale und vertrauliche Bearbeitung',
       'Flexible Laufzeit von 12 bis 360 Monaten'
     ],
+    confidentialityBadge: '100% Vertraulichkeit',
+    noPriorFees: 'Keine Vorauszahlungsgebühren',
   },
   servicesBrief: {
     title: 'Unsere Finanzierungslösungen',
     subtitle: 'Passende Kreditangebote für jedes Lebensprojekt',
     viewAll: 'Alle Lösungen anzeigen',
+    customOffersBadge: 'Maßgeschneiderte Angebote',
+    learnMore: 'Mehr erfahren',
+    badges: {
+      freedom: 'Freiheit',
+      rate3: 'Zins 3%',
+      realEstate: 'Immobilien',
+      renovation: 'Renovierung',
+      studies: 'Studium',
+      consolidation: 'Umschuldung',
+    },
   },
   simulator: {
     title: 'Interaktiver Kreditrechner',
     subtitle: 'Berechnen Sie Ihre monatliche Rate unverbindlich',
+    badge: '100% kostenloser Online-Rechner',
     amountLabel: 'Gewünschter Kreditbetrag (€)',
     durationLabel: 'Laufzeit (Monate)',
     months: 'Monate',
@@ -55,6 +68,15 @@ export const de: Translations = {
     totalAmount: 'Gesamtrückzahlungsbetrag',
     applyBtn: 'Diesen Kredit beantragen',
     disclaimer: 'Hinweis: Das Ergebnis dient als unverbindliches Berechnungsbeispiel bei einem eff. Jahreszins von 3,00%.',
+    advantages: {
+      fixedRateTitle: 'Fester Zinssatz von 3,00%',
+      fixedRateDesc: 'Keine bösen Überraschungen über die gesamte Vertragslaufzeit.',
+      tailoredTitle: 'Maßgeschneiderte Rückzahlung',
+      tailoredDesc: 'Wählen Sie zwischen 12 und 120 Monaten passend zu Ihrem Budget.',
+      noCommitmentTitle: 'Unverbindlich & Vertraulich',
+      noCommitmentDesc: '100% kostenlose Simulation, keine Speicherung Ihrer Daten.',
+      response24h: 'Persönliche Prüfung und Antwort innerhalb von 24 Stunden nach Absenden.',
+    },
   },
   steps: {
     title: 'In 4 einfachen Schritten zum Kredit',
@@ -71,6 +93,7 @@ export const de: Translations = {
   testimonialsSection: {
     title: 'Das sagen unsere Kunden',
     subtitle: 'Vertrauen und Zufriedenheit stehen bei Kredit Finanz Privat an erster Stelle',
+    badge: 'Kundenbewertungen & Erfahrungen',
     viewAll: 'Alle Erfahrungsberichte lesen',
   },
   faqSection: {
@@ -83,8 +106,10 @@ export const de: Translations = {
     btn: 'Jetzt Antrag starten',
   },
   servicesPage: {
+    heroBadge: 'Kreditlösungen von Kredit Finanz Privat',
     heroTitle: 'Unsere maßgeschneiderten Kreditlösungen',
     heroSubtitle: 'Entdecken Sie flexible Finanzierungsmöglichkeiten für Ihre persönlichen Vorhaben.',
+    applySolutionBtn: 'Diese Lösung anfragen',
     personalLoan: {
       title: 'Privatkredit / Ratenkredit',
       desc: 'Ein flexibler Kredit zur freien Verfügung ohne Zweckbindung. Ideal für persönliche Wünsche, Reisen, Möbel oder unerwartete Ausgaben.',
@@ -117,6 +142,7 @@ export const de: Translations = {
     }
   },
   aboutPage: {
+    badge: 'Vertrauenswürdiges Finanzinstitut',
     title: 'Über Kredit Finanz Privat',
     subtitle: 'Ihr verlässlicher Spezialist für transparente Privatkredite in Europa.',
     missionTitle: 'Unsere Mission',
@@ -124,6 +150,7 @@ export const de: Translations = {
     valuesTitle: 'Unsere Grundwerte',
     valuesDesc: 'Unsere Arbeit basiert auf vier Grundpfeilern: Integrität, absolute Transparenz, Kundennähe und schnelle Entscheidungswege.',
     commitmentsTitle: 'Unsere Qualitätsversprechen',
+    commitmentsSubtitle: 'Unsere Exzellenzgarantien für jeden Kreditnehmer',
     commitmentsList: [
       { title: 'Fester Jahreszins von 3%', desc: 'Keine variablen Überraschungen – Ihr Zinssatz bleibt über die gesamte Laufzeit konstant.' },
       { title: '100% Datenschutz & Sicherheit', desc: 'Keine Speicherung persönlicher Daten auf dem Webserver. Ihre Anfrage wird verschlüsselt verarbeitet.' },
@@ -135,6 +162,10 @@ export const de: Translations = {
     badge: 'Online-Antragsformular',
     title: 'Kreditanfrage stellen',
     subtitle: 'Füllen Sie das Formular aus. Wir melden uns innerhalb von 24 Stunden bei Ihnen.',
+    securityBadges: {
+      ssl: '256-Bit SSL-Verschlüsselung',
+      noStorage: 'Keine Speicherung Ihrer Daten',
+    },
     form: {
       personalInfo: '1. Persönliche Angaben',
       firstName: 'Vorname',

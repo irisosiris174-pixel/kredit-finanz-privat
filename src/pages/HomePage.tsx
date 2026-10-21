@@ -13,12 +13,12 @@ export const HomePage: React.FC = () => {
   const t = translations[currentLang];
 
   const serviceCards = [
-    { key: 'personalLoan', icon: ShieldCheck, title: t.servicesPage.personalLoan.title, desc: t.servicesPage.personalLoan.desc, image: PEXELS_IMAGES.services.personal, badge: 'Liberté' },
-    { key: 'autoLoan', icon: Zap, title: t.servicesPage.autoLoan.title, desc: t.servicesPage.autoLoan.desc, image: PEXELS_IMAGES.services.auto, badge: 'Taux 3%' },
-    { key: 'mortgageLoan', icon: Award, title: t.servicesPage.mortgageLoan.title, desc: t.servicesPage.mortgageLoan.desc, image: PEXELS_IMAGES.services.mortgage, badge: 'Immobilier' },
-    { key: 'renovationLoan', icon: Percent, title: t.servicesPage.renovationLoan.title, desc: t.servicesPage.renovationLoan.desc, image: PEXELS_IMAGES.services.renovation, badge: 'Travaux' },
-    { key: 'studentLoan', icon: FileText, title: t.servicesPage.studentLoan.title, desc: t.servicesPage.studentLoan.desc, image: PEXELS_IMAGES.services.student, badge: 'Études' },
-    { key: 'consolidationLoan', icon: Users, title: t.servicesPage.consolidationLoan.title, desc: t.servicesPage.consolidationLoan.desc, image: PEXELS_IMAGES.services.consolidation, badge: 'Rachat' },
+    { key: 'personalLoan', icon: ShieldCheck, title: t.servicesPage.personalLoan.title, desc: t.servicesPage.personalLoan.desc, image: PEXELS_IMAGES.services.personal, badge: t.servicesBrief.badges.freedom },
+    { key: 'autoLoan', icon: Zap, title: t.servicesPage.autoLoan.title, desc: t.servicesPage.autoLoan.desc, image: PEXELS_IMAGES.services.auto, badge: t.servicesBrief.badges.rate3 },
+    { key: 'mortgageLoan', icon: Award, title: t.servicesPage.mortgageLoan.title, desc: t.servicesPage.mortgageLoan.desc, image: PEXELS_IMAGES.services.mortgage, badge: t.servicesBrief.badges.realEstate },
+    { key: 'renovationLoan', icon: Percent, title: t.servicesPage.renovationLoan.title, desc: t.servicesPage.renovationLoan.desc, image: PEXELS_IMAGES.services.renovation, badge: t.servicesBrief.badges.renovation },
+    { key: 'studentLoan', icon: FileText, title: t.servicesPage.studentLoan.title, desc: t.servicesPage.studentLoan.desc, image: PEXELS_IMAGES.services.student, badge: t.servicesBrief.badges.studies },
+    { key: 'consolidationLoan', icon: Users, title: t.servicesPage.consolidationLoan.title, desc: t.servicesPage.consolidationLoan.desc, image: PEXELS_IMAGES.services.consolidation, badge: t.servicesBrief.badges.consolidation },
   ];
 
   return (
@@ -50,8 +50,8 @@ export const HomePage: React.FC = () => {
                     <CheckCircle2 className="w-6 h-6" />
                   </div>
                   <div>
-                    <div className="text-xl font-extrabold text-white">100% Confidentialité</div>
-                    <div className="text-xs text-teal-300 font-medium">Aucun frais préalable</div>
+                    <div className="text-xl font-extrabold text-white">{t.aboutBrief.confidentialityBadge}</div>
+                    <div className="text-xs text-teal-300 font-medium">{t.aboutBrief.noPriorFees}</div>
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export const HomePage: React.FC = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         <div className="text-center space-y-3 max-w-2xl mx-auto">
           <span className="inline-block px-3.5 py-1 rounded-full bg-teal-50 text-[#0a6c74] font-bold text-xs uppercase tracking-wider">
-            Offres personnalisées
+            {t.servicesBrief.customOffersBadge}
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900">{t.servicesBrief.title}</h2>
           <p className="text-slate-600 text-base">{t.servicesBrief.subtitle}</p>
@@ -151,7 +151,7 @@ export const HomePage: React.FC = () => {
                     to={`/${currentLang}/services`}
                     className="inline-flex items-center gap-1.5 text-xs font-bold text-[#0a6c74] hover:text-[#004d5a] tracking-wider uppercase group-hover:translate-x-1 transition-transform"
                   >
-                    <span>En savoir plus</span>
+                    <span>{t.servicesBrief.learnMore}</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>

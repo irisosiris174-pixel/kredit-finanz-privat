@@ -1,4 +1,4 @@
-export type Language = 'de' | 'en' | 'lt' | 'fr';
+export type Language = 'de' | 'en' | 'es' | 'fr';
 
 export interface Translations {
   nav: {
@@ -32,15 +32,28 @@ export interface Translations {
     desc2: string;
     readMore: string;
     points: string[];
+    confidentialityBadge: string;
+    noPriorFees: string;
   };
   servicesBrief: {
     title: string;
     subtitle: string;
     viewAll: string;
+    customOffersBadge: string;
+    learnMore: string;
+    badges: {
+      freedom: string;
+      rate3: string;
+      realEstate: string;
+      renovation: string;
+      studies: string;
+      consolidation: string;
+    };
   };
   simulator: {
     title: string;
     subtitle: string;
+    badge: string;
     amountLabel: string;
     durationLabel: string;
     months: string;
@@ -51,6 +64,15 @@ export interface Translations {
     totalAmount: string;
     applyBtn: string;
     disclaimer: string;
+    advantages: {
+      fixedRateTitle: string;
+      fixedRateDesc: string;
+      tailoredTitle: string;
+      tailoredDesc: string;
+      noCommitmentTitle: string;
+      noCommitmentDesc: string;
+      response24h: string;
+    };
   };
   steps: {
     title: string;
@@ -67,6 +89,7 @@ export interface Translations {
   testimonialsSection: {
     title: string;
     subtitle: string;
+    badge: string;
     viewAll: string;
   };
   faqSection: {
@@ -79,8 +102,10 @@ export interface Translations {
     btn: string;
   };
   servicesPage: {
+    heroBadge: string;
     heroTitle: string;
     heroSubtitle: string;
+    applySolutionBtn: string;
     personalLoan: {
       title: string;
       desc: string;
@@ -113,6 +138,7 @@ export interface Translations {
     };
   };
   aboutPage: {
+    badge: string;
     title: string;
     subtitle: string;
     missionTitle: string;
@@ -120,12 +146,17 @@ export interface Translations {
     valuesTitle: string;
     valuesDesc: string;
     commitmentsTitle: string;
+    commitmentsSubtitle: string;
     commitmentsList: { title: string; desc: string }[];
   };
   applyPage: {
     badge: string;
     title: string;
     subtitle: string;
+    securityBadges: {
+      ssl: string;
+      noStorage: string;
+    };
     form: {
       personalInfo: string;
       firstName: string;

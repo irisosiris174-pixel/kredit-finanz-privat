@@ -7,7 +7,7 @@ import { translations, getLanguageFromPath } from '../i18n';
 const languages: { code: Language; label: string; flag: string }[] = [
   { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
   { code: 'en', label: 'English', flag: '🇬🇧' },
-  { code: 'lt', label: 'Lietuvių', flag: '🇱🇹' },
+  { code: 'es', label: 'Español', flag: '🇪🇸' },
   { code: 'fr', label: 'Français', flag: '🇫🇷' },
 ];
 

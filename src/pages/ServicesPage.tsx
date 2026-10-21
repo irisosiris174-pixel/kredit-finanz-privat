@@ -70,7 +70,7 @@ export const ServicesPage: React.FC = () => {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4 max-w-3xl">
           <span className="inline-block px-4 py-1.5 rounded-full bg-teal-500/20 text-teal-300 text-xs font-semibold tracking-wider uppercase border border-teal-500/30">
-            Solutions de crédit Kredit Finanz Privat
+            {t.heroBadge}
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">{t.heroTitle}</h1>
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed">{t.heroSubtitle}</p>
@@ -131,7 +131,7 @@ export const ServicesPage: React.FC = () => {
                     to={`/${currentLang}/submission`}
                     className="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-xl bg-[#0a6c74] hover:bg-[#004d5a] text-white font-bold text-sm shadow-md hover:shadow-lg transition-all"
                   >
-                    <span>Demander cette solution</span>
+                    <span>{t.applySolutionBtn}</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>

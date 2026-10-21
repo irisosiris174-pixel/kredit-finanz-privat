@@ -25,7 +25,7 @@ export const AboutPage: React.FC = () => {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4 max-w-3xl">
           <span className="inline-block px-4 py-1.5 rounded-full bg-teal-500/20 text-teal-300 text-xs font-semibold tracking-wider uppercase border border-teal-500/30">
-            Institution financière de confiance
+            {t.badge}
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">{t.title}</h1>
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed">{t.subtitle}</p>
@@ -58,7 +58,7 @@ export const AboutPage: React.FC = () => {
         <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-[#004d5a] rounded-3xl p-8 sm:p-14 text-white space-y-8 shadow-2xl relative overflow-hidden">
           <div className="text-center space-y-2 max-w-2xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-extrabold">{t.commitmentsTitle}</h2>
-            <p className="text-teal-200 text-sm">Nos garanties d'excellence pour chaque emprunteur</p>
+            <p className="text-teal-200 text-sm">{t.commitmentsSubtitle}</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">

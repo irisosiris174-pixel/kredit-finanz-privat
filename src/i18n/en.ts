@@ -36,15 +36,28 @@ export const en: Translations = {
       '100% digital and confidential application process',
       'Flexible duration from 12 to 360 months'
     ],
+    confidentialityBadge: '100% Confidentiality',
+    noPriorFees: 'No Upfront Fees',
   },
   servicesBrief: {
     title: 'Our Financing Solutions',
     subtitle: 'Suitable loan offers for every life project',
     viewAll: 'View All Solutions',
+    customOffersBadge: 'Custom Offers',
+    learnMore: 'Learn More',
+    badges: {
+      freedom: 'Freedom',
+      rate3: '3% Rate',
+      realEstate: 'Real Estate',
+      renovation: 'Renovation',
+      studies: 'Studies',
+      consolidation: 'Consolidation',
+    },
   },
   simulator: {
     title: 'Interactive Loan Calculator',
     subtitle: 'Estimate your monthly payments with no obligation',
+    badge: '100% Free Online Simulator',
     amountLabel: 'Desired Loan Amount (€)',
     durationLabel: 'Duration (Months)',
     months: 'months',
@@ -55,6 +68,15 @@ export const en: Translations = {
     totalAmount: 'Total Amount Payable',
     applyBtn: 'Apply for This Loan',
     disclaimer: 'Note: Results are for non-binding illustrative purposes based on a fixed annual interest rate of 3.00%.',
+    advantages: {
+      fixedRateTitle: 'Fixed rate at 3.00%',
+      fixedRateDesc: 'No surprises throughout the duration of the contract.',
+      tailoredTitle: 'Tailored repayment',
+      tailoredDesc: 'Choose between 12 and 120 months according to your capabilities.',
+      noCommitmentTitle: 'No commitment & Confidentiality',
+      noCommitmentDesc: '100% free simulation, no data storage.',
+      response24h: 'Personalized study and response within 24 hours of form submission.',
+    },
   },
   steps: {
     title: 'Obtain Your Loan in 4 Simple Steps',
@@ -71,6 +93,7 @@ export const en: Translations = {
   testimonialsSection: {
     title: 'What Our Clients Say',
     subtitle: 'Trust and client satisfaction are Kredit Finanz Privat\'s utmost priorities',
+    badge: 'Borrower Reviews & Experiences',
     viewAll: 'Read All Testimonials',
   },
   faqSection: {
@@ -83,8 +106,10 @@ export const en: Translations = {
     btn: 'Start Application Now',
   },
   servicesPage: {
+    heroBadge: 'Kredit Finanz Privat Credit Solutions',
     heroTitle: 'Our Tailored Loan Solutions',
     heroSubtitle: 'Explore flexible financing options tailored to your personal ambitions.',
+    applySolutionBtn: 'Apply for this solution',
     personalLoan: {
       title: 'Personal Loan',
       desc: 'A flexible loan for any personal use with no mandatory proof of expense. Perfect for personal goals, travel, furnishings, or unexpected expenses.',
@@ -117,6 +142,7 @@ export const en: Translations = {
     }
   },
   aboutPage: {
+    badge: 'Trusted Financial Institution',
     title: 'About Kredit Finanz Privat',
     subtitle: 'Your dependable specialist in transparent personal loans across Europe.',
     missionTitle: 'Our Mission',
@@ -124,6 +150,7 @@ export const en: Translations = {
     valuesTitle: 'Our Core Values',
     valuesDesc: 'Our work is grounded in four core pillars: Integrity, absolute transparency, client proximity, and rapid decision-making.',
     commitmentsTitle: 'Our Commitments to You',
+    commitmentsSubtitle: 'Our guarantees of excellence for every borrower',
     commitmentsList: [
       { title: 'Fixed 3% Annual Interest Rate', desc: 'No floating surprises – your interest rate stays strictly unchanged throughout the entire term.' },
       { title: '100% Data Privacy & Protection', desc: 'No personal data is saved on website servers or databases. Requests are sent securely via email.' },
@@ -135,6 +162,10 @@ export const en: Translations = {
     badge: 'Online Application Form',
     title: 'Submit a Loan Application',
     subtitle: 'Fill out the form below. Our financial team will contact you within 24 hours.',
+    securityBadges: {
+      ssl: '256-bit SSL Encryption',
+      noStorage: 'Zero data storage',
+    },
     form: {
       personalInfo: '1. Personal Information',
       firstName: 'First Name',

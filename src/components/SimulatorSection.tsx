@@ -28,7 +28,7 @@ export const SimulatorSection: React.FC = () => {
         <div className="text-center space-y-4 max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-500/20 text-teal-300 text-xs font-semibold tracking-wide border border-teal-500/30">
             <Calculator className="w-4 h-4 text-teal-400" />
-            <span>Simulateur en ligne 100% gratuit</span>
+            <span>{t.badge}</span>
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
@@ -52,8 +52,8 @@ export const SimulatorSection: React.FC = () => {
                   <TrendingUp className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-base">Taux fixe à 3.00%</h4>
-                  <p className="text-slate-400 text-xs">Aucune surprise sur toute la durée du contrat.</p>
+                  <h4 className="text-white font-bold text-base">{t.advantages.fixedRateTitle}</h4>
+                  <p className="text-slate-400 text-xs">{t.advantages.fixedRateDesc}</p>
                 </div>
               </div>
             </div>
@@ -64,8 +64,8 @@ export const SimulatorSection: React.FC = () => {
                   <Sparkles className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-base">Remboursement sur-mesure</h4>
-                  <p className="text-slate-400 text-xs">Choisissez entre 12 et 120 mois selon vos capacités.</p>
+                  <h4 className="text-white font-bold text-base">{t.advantages.tailoredTitle}</h4>
+                  <p className="text-slate-400 text-xs">{t.advantages.tailoredDesc}</p>
                 </div>
               </div>
             </div>
@@ -76,15 +76,15 @@ export const SimulatorSection: React.FC = () => {
                   <Lock className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-base">Sans engagement & Confidentialité</h4>
-                  <p className="text-slate-400 text-xs">Simulation 100% gratuite, sans stockage de données.</p>
+                  <h4 className="text-white font-bold text-base">{t.advantages.noCommitmentTitle}</h4>
+                  <p className="text-slate-400 text-xs">{t.advantages.noCommitmentDesc}</p>
                 </div>
               </div>
             </div>
 
             <div className="p-4 rounded-xl bg-teal-900/30 border border-teal-500/30 text-teal-200 text-xs flex items-center gap-3">
               <ShieldCheck className="w-5 h-5 text-teal-400 shrink-0" />
-              <span>Réponse et étude personnalisée sous 24h après validation du formulaire.</span>
+              <span>{t.advantages.response24h}</span>
             </div>
 
           </div>

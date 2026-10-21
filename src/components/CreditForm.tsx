@@ -87,11 +87,11 @@ export const CreditForm: React.FC = () => {
         <div className="flex flex-wrap items-center gap-4 mt-6 text-xs text-teal-200">
           <div className="flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg">
             <Lock className="w-4 h-4 text-teal-300" />
-            <span>Chiffrement SSL 256-bit</span>
+            <span>{translations[currentLang].applyPage.securityBadges.ssl}</span>
           </div>
           <div className="flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg">
             <ShieldCheck className="w-4 h-4 text-teal-300" />
-            <span>Aucun stockage de vos données</span>
+            <span>{translations[currentLang].applyPage.securityBadges.noStorage}</span>
           </div>
         </div>
       </div>

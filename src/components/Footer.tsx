@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Shield, Mail, MapPin } from 'lucide-react';
+import { Shield, Mail, MapPin, MessageCircle } from 'lucide-react';
 import { getLanguageFromPath, translations } from '../i18n';
 
 export const Footer: React.FC = () => {
@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-[#262626] text-slate-300 pt-16 pb-12 border-t border-[#383838]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-[#383838]">
-          
+
           {/* Brand Info */}
           <div className="space-y-4">
             <Link to={`/${currentLang}`} className="flex items-center gap-3 group">
@@ -103,11 +103,18 @@ export const Footer: React.FC = () => {
             <h3 className="text-white text-base font-semibold tracking-wide">
               {t.contactInfo}
             </h3>
-            <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Kredit Finanz Privat" className="h-10 w-auto object-contain" />
-              <span className="text-xl font-bold tracking-tight text-white">KREDIT FINANZ PRIVAT</span>
-            </div>
             <ul className="space-y-3 text-sm">
+              <li className="flex items-center gap-3 text-slate-300">
+                <a
+                  href="https://wa.me/4367858230000"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 hover:text-white transition-colors"
+                >
+                  <MessageCircle className="w-4 h-4 text-[#16939d] shrink-0" />
+                  <span>+43 678 582 300 00</span>
+                </a>
+              </li>
               <li className="flex items-center gap-3 text-slate-300">
                 <Mail className="w-4 h-4 text-[#16939d] shrink-0" />
                 <a href="mailto:contact@kredit-finanz-privat.com" className="hover:text-white transition-colors">

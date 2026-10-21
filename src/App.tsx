@@ -46,7 +46,7 @@ export function App() {
             <Route path="/" element={<RootRedirector />} />
 
             {/* Multilingual Routes per Language Prefix */}
-            {['de', 'en', 'lt', 'fr'].map((lang) => (
+            {['de', 'en', 'es', 'fr'].map((lang) => (
               <React.Fragment key={lang}>
                 <Route path={`/${lang}`} element={<HomePage />} />
                 <Route path={`/${lang}/about`} element={<AboutPage />} />

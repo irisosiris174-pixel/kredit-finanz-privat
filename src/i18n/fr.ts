@@ -36,15 +36,28 @@ export const fr: Translations = {
       'Procédure 100% digitale et strictement confidentielle',
       'Durée flexible de 12 à 360 mois'
     ],
+    confidentialityBadge: '100% Confidentialité',
+    noPriorFees: 'Aucun frais préalable',
   },
   servicesBrief: {
     title: 'Nos solutions de financement',
     subtitle: 'Une gamme complète adaptée à chaque étape de votre vie',
     viewAll: 'Voir toutes nos solutions',
+    customOffersBadge: 'Offres personnalisées',
+    learnMore: 'En savoir plus',
+    badges: {
+      freedom: 'Liberté',
+      rate3: 'Taux 3%',
+      realEstate: 'Immobilier',
+      renovation: 'Travaux',
+      studies: 'Études',
+      consolidation: 'Rachat',
+    },
   },
   simulator: {
     title: 'Simulateur de crédit interactif',
     subtitle: 'Calculez vos mensualités estimées sans aucun engagement',
+    badge: 'Simulateur en ligne 100% gratuit',
     amountLabel: 'Montant du crédit souhaité (€)',
     durationLabel: 'Durée du remboursement (Mois)',
     months: 'mois',
@@ -55,6 +68,15 @@ export const fr: Translations = {
     totalAmount: 'Montant total à rembourser',
     applyBtn: 'Demander ce crédit',
     disclaimer: 'Remarque : Ce résultat est une simulation indicative calculée sur la base d\'un taux annuel fixe de 3,00%.',
+    advantages: {
+      fixedRateTitle: 'Taux fixe à 3.00%',
+      fixedRateDesc: 'Aucune surprise sur toute la durée du contrat.',
+      tailoredTitle: 'Remboursement sur-mesure',
+      tailoredDesc: 'Choisissez entre 12 et 120 mois selon vos capacités.',
+      noCommitmentTitle: 'Sans engagement & Confidentialité',
+      noCommitmentDesc: 'Simulation 100% gratuite, sans stockage de données.',
+      response24h: 'Réponse et étude personnalisée sous 24h après validation du formulaire.',
+    },
   },
   steps: {
     title: 'Obtenez votre crédit en 4 étapes simples',
@@ -71,6 +93,7 @@ export const fr: Translations = {
   testimonialsSection: {
     title: 'Ce que disent nos clients',
     subtitle: 'La confiance et la satisfaction de nos emprunteurs sont la fierté de Kredit Finanz Privat',
+    badge: 'Avis & Expériences Emprunteurs',
     viewAll: 'Voir tous les témoignages',
   },
   faqSection: {
@@ -83,8 +106,10 @@ export const fr: Translations = {
     btn: 'Démarrer ma demande',
   },
   servicesPage: {
+    heroBadge: 'Solutions de crédit Kredit Finanz Privat',
     heroTitle: 'Nos solutions de financement sur mesure',
     heroSubtitle: 'Découvrez des offres de crédit flexibles conçues pour concrétiser toutes vos ambitions.',
+    applySolutionBtn: 'Demander cette solution',
     personalLoan: {
       title: 'Crédit personnel',
       desc: 'Un prêt flexible à usage libre sans justification de dépense. Idéal pour vos besoins personnels, voyages, équipement ou imprévus.',
@@ -117,6 +142,7 @@ export const fr: Translations = {
     }
   },
   aboutPage: {
+    badge: 'Institution financière de confiance',
     title: 'À propos de Kredit Finanz Privat',
     subtitle: 'Votre partenaire de confiance pour les solutions de crédit en Europe.',
     missionTitle: 'Notre Mission',
@@ -124,6 +150,7 @@ export const fr: Translations = {
     valuesTitle: 'Nos Valeurs Fondamentales',
     valuesDesc: 'Notre engagement s\'appuie sur quatre piliers : l\'intégrité, la transparence totale, la proximité client et la rapidité d\'exécution.',
     commitmentsTitle: 'Nos Engagements Qualité',
+    commitmentsSubtitle: 'Nos garanties d\'excellence pour chaque emprunteur',
     commitmentsList: [
       { title: 'Taux Annuel Fixe de 3%', desc: 'Aucune variation imprévue : votre taux demeure strictement identique pendant toute la durée du crédit.' },
       { title: '100% Protection des Données', desc: 'Aucune donnée personnelle n\'est conservée sur la base de données du site web. Transmission directe et sécurisée.' },
@@ -135,6 +162,10 @@ export const fr: Translations = {
     badge: 'Formulaire de demande en ligne',
     title: 'Faire une demande de crédit',
     subtitle: 'Complétez le formulaire ci-dessous. Notre équipe étudiera votre dossier sous 24h.',
+    securityBadges: {
+      ssl: 'Chiffrement SSL 256-bit',
+      noStorage: 'Aucun stockage de vos données',
+    },
     form: {
       personalInfo: '1. Informations personnelles',
       firstName: 'Prénom',
