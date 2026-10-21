@@ -71,6 +71,7 @@ export default async function handler(req: any, res: any) {
   }
 
   const resendApiKey = process.env.RESEND_API_KEY;
+  const fromEmail = process.env.FROM_EMAIL || 'contact@finamenix.com';
 
   if (!resendApiKey) {
     console.warn('RESEND_API_KEY missing in environment variables.');
@@ -115,8 +116,8 @@ export default async function handler(req: any, res: any) {
     `;
 
     const data = await resend.emails.send({
-      from: 'contact@finamenix.com',
-      to: ['contact@finamenix.com'],
+      from: fromEmail,
+      to: [fromEmail],
       subject: `[Demande de Crédit ${amount}€] ${firstName} ${lastName}`,
       html: emailContent,
       replyTo: email,
